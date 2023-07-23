@@ -1,0 +1,61 @@
+*
+{
+  padding: 0px;
+  box-sizing: border-box;
+}
+.parent_container
+{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
+.main_container
+{
+  display: flex;
+  
+}
+.input_container
+{
+  max-width: 100vw;
+  background-color: navajowhite;
+  color: black;
+  font-weight: bold;font-size: 22px;
+}
+input[type='text']
+{
+  font-size: 20px;
+}
+.print_button
+{
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+.name_input
+{
+  height: 40px;
+}
+.counter
+{
+  max-width: 100vw;
+  max-height: 100vh;
+  background-color: navajowhite;
+  font-weight: bold;
+  color: black;
+  height: 100px;
+}
+.add
+{
+  width: 200px;
+  height: 30px;
+}
+.sub
+{
+    width: 200px;
+    height: 30px;
+}
+button[type='count']
+{
+  font-size: 20px;
+}

@@ -1,0 +1,18 @@
+body{
+ 
+  font-weight: bold;
+}
+.logged_in
+{
+  background-color: lemonchiffon;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logout_button
+{
+  height: 30px;
+  width: 70px;
+  border: 1px solid;
+  border-radius: 7px;
+}

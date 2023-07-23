@@ -1,0 +1,37 @@
+.login_page_container
+{
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login_container{
+  box-shadow: 5px 5px 10px ;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+
+}
+button:active
+{
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transform: translateY(4px);
+}
+button:hover
+{
+  background-color: black;
+  color: snow;
+  font-weight: bold;
+}
+.login_button
+{
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 3px;
+  margin-inline: calc(100% - 60%);
+ 
+
+}
